@@ -1,0 +1,21 @@
+
+:root{
+  --bg:#f4f7fb;
+  --card:#ffffff;
+  --line:#dbe3ee;
+  --text:#1b2b3a;
+  --sub:#5d6d7e;
+  --accent:#215fa3;
+  --chip:#edf4fc;
+  --chip2:#eef8f5;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Hiragino Sans","Yu Gothic",sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.55;
+}
+button,input,textarea,select{font:inherit}
+a{color:inherit}
